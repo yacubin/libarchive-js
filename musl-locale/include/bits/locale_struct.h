@@ -16,6 +16,4 @@ struct __locale_struct {
 	const struct __locale_map *cat[6];
 };
 
-typedef struct __locale_struct * locale_t;
-
 #endif

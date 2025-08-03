@@ -4,11 +4,10 @@
  *
  */
 
-#ifndef _WCTYPE_H
-#define _WCTYPE_H
+#ifndef _BITS_MCSMBS_WCTYPE_H
+#define _BITS_MCSMBS_WCTYPE_H
 
 #include <wasmux/widechar.h>
-#include <bits/locale_struct.h>
 
 #ifdef __cplusplus
 extern "C" {
@@ -37,4 +36,4 @@ wint_t towupper(wint_t wc);
 }
 #endif
 
-#endif /* _WCTYPE_H */
+#endif /* _BITS_MCSMBS_WCTYPE_H */

@@ -11,6 +11,7 @@ find_package(LZ4 REQUIRED)
 find_package(BZip2 REQUIRED)
 find_package(LibLZMA REQUIRED)
 find_package(ZSTD REQUIRED)
+find_package(EXPAT REQUIRED)
 find_package(LibArchive REQUIRED)
 
 set(libarchive_SOURCES

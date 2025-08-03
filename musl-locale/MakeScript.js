@@ -59,6 +59,10 @@ module.exports = (mk) => {
     mk.SOURCE_DIR.join("include"),
   ];
 
+  mk.script("<wasmux/thread_data.h>").mergeVariables({
+    SCRIPT_ENTITIES: [ "void* locale_data;" ],
+  });
+
   const locale = mk.addObjectLibrary("locale", headers, sources);
   locale.addPublicIncludes(includes);
   locale.addIncludes(mk.SOURCE_DIR);
