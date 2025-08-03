@@ -14,7 +14,7 @@
 export default {
   "default": {
     environment: {
-      PATH: [ "/opt/apps/LLVM-20.1.0-Linux-X64/bin" ],
+      PATH: [ "/opt/apps/llvm-project-20.1.8/bin" ],
     },
   },
 

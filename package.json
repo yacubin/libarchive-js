@@ -74,10 +74,10 @@
   },
   "devDependencies": {
     "dts-bundle-generator": "^9.5.1",
-    "ts-loader": "^9.5.2",
-    "typescript": "^5.8.3",
+    "ts-loader": "9.5.2",
+    "typescript": "5.8.3",
     "webpack": "^5.99.5",
     "webpack-cli": "^6.0.1",
-    "wasmux": "^0.0.3-develop.8"
+    "wasmux": "^0.0.3-develop.9"
   }
 }
