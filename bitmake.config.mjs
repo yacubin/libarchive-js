@@ -1,3 +1,12 @@
+/*
+ * MIT License
+ *
+ * Copyright (c) 2025  Yurii Yakubin (yurii.yakubin@gmail.com)
+ *
+ * Permission is granted to use, copy, modify, and distribute this software
+ * under the MIT License. See LICENSE file for details.
+ */
+
 // RUN npm install
 // RUN npx bitmake build
 // RUN npm run build:release
@@ -21,7 +30,7 @@ export default {
       WASMUX_PTHREAD_WITH_LIBC: true,
       WASMUX_THREADS: false,
     },
-    sourceDir: "${wasmux.mainDir}",
+    sourceUrl: "import://wasmux/build",
     destDir: "${binaryRoot}/sysroot",
   },
 
@@ -153,6 +162,17 @@ export default {
       ZSTD_MULTITHREAD_SUPPORT: false,
     },
     sourceDir: "build/cmake",
+    destDir: "${binaryRoot}/sysroot",
+  },
+
+  "bundle:expat": {
+    base: "base-configure",
+    sourceUrl: "https://github.com/libexpat/libexpat/releases/download/R_2_5_0/expat-2.5.0.tar.gz",
+    action: "configure",
+    variables: {
+      host: "wasm32",
+      target: "wasm32",
+    },
     destDir: "${binaryRoot}/sysroot",
   },
 

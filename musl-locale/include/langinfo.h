@@ -8,7 +8,7 @@ extern "C" {
 #include <features.h>
 #include <nl_types.h>
 
-#include <bits/locale_struct.h>
+#include <locale.h>
 #include <limits.h>
 
 #define ABDAY_1 0x20000

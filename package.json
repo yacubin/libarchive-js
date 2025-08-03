@@ -1,10 +1,18 @@
 {
   "name": "libarchive",
-  "version": "0.0.1-develop.13",
+  "version": "0.0.1-develop.14",
   "description": "Multi-format archive and compression library",
   "author": "Yurii Yakubin",
-  "homepage": "https://github.com/ykbin/libarchive-js#readme",
   "license": "MIT",
+  "homepage": "https://github.com/ykbin/libarchive-js#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ykbin/libarchive-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ykbin/libarchive-js/issues",
+    "email": "yurii.yakubin@gmail.com"
+  },
   "main": "./dist/libarchive.js",
   "types": "./dist/libarchive.d.ts",
   "exports": {
@@ -64,20 +72,12 @@
     "build:debug": "npm run build:main:debug && npm run build:node:debug && npm run build:cli:debug && npm run build:types",
     "build:release": "npm run build:main:release && npm run build:node:release && npm run build:cli:release && npm run build:types"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ykbin/libarchive-js.git"
-  },
-  "bugs": {
-    "url": "https://github.com/ykbin/libarchive-js/issues",
-    "email": "yurii.yakubin@gmail.com"
-  },
   "devDependencies": {
     "dts-bundle-generator": "^9.5.1",
     "ts-loader": "^9.5.2",
     "typescript": "^5.8.3",
     "webpack": "^5.99.5",
     "webpack-cli": "^6.0.1",
-    "wasmux": "^0.0.3-develop.7"
+    "wasmux": "github:ykbin/wasmux#20250608_dev8"
   }
 }

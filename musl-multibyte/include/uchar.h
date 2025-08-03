@@ -3,7 +3,7 @@
 
 #include <features.h>
 #include <wasmux/types.h>
-#include <wcsmbs.h>
+#include <wchar.h>
 
 #ifdef __cplusplus
 extern "C" {
