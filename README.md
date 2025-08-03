@@ -1,7 +1,7 @@
 libarchive
 =======
 
-JavaScript wrapper around the [libarchive](https://github.com/libarchive/libarchive) C library, using [WASMUX](https://github.com/ykbin/wasmux) toolchain.
+JavaScript wrapper around the [libarchive](https://github.com/libarchive/libarchive) C library, using [WASMUX](https://github.com/yacubin/wasmux) toolchain.
 
 Usage
 -----

@@ -4,13 +4,13 @@
   "description": "Multi-format archive and compression library",
   "author": "Yurii Yakubin",
   "license": "MIT",
-  "homepage": "https://github.com/ykbin/libarchive-js#readme",
+  "homepage": "https://github.com/yacubin/libarchive-js#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ykbin/libarchive-js.git"
+    "url": "git+https://github.com/yacubin/libarchive-js.git"
   },
   "bugs": {
-    "url": "https://github.com/ykbin/libarchive-js/issues",
+    "url": "https://github.com/yacubin/libarchive-js/issues",
     "email": "yurii.yakubin@gmail.com"
   },
   "main": "./dist/libarchive.js",
@@ -78,6 +78,6 @@
     "typescript": "^5.8.3",
     "webpack": "^5.99.5",
     "webpack-cli": "^6.0.1",
-    "wasmux": "github:ykbin/wasmux#20250608_dev8"
+    "wasmux": "^0.0.3-develop.8"
   }
 }
