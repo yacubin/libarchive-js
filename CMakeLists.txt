@@ -35,6 +35,7 @@ set(libarchive_LIBRARIES
 
 source_group(TREE "${CMAKE_CURRENT_SOURCE_DIR}" FILES ${libarchive_SOURCES})
 add_executable(libarchive ${libarchive_SOURCES})
+target_include_directories(libarchive PRIVATE "${libarchive_INCLUDES}")
 target_link_libraries(libarchive PRIVATE ${libarchive_LIBRARIES})
 set_target_properties(libarchive PROPERTIES SUFFIX ".wasm")
 

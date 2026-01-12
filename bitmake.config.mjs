@@ -1,7 +1,7 @@
 /*
  * MIT License
  *
- * Copyright (c) 2025  Yurii Yakubin (yurii.yakubin@gmail.com)
+ * Copyright (c) 2025-2026  Yurii Yakubin (yurii.yakubin@gmail.com)
  *
  * Permission is granted to use, copy, modify, and distribute this software
  * under the MIT License. See LICENSE file for details.
@@ -14,7 +14,9 @@
 export default {
   "default": {
     environment: {
-      PATH: [ "/opt/apps/llvm-project-20.1.8/bin" ],
+      PATH: [
+        "/opt/apps/llvm-project-21.1.8/bin",
+      ],
     },
   },
 
